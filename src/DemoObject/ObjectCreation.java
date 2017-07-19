@@ -2,8 +2,7 @@ package DemoObject;
 
 public class ObjectCreation {
 	int price = 100;
-	int tax = 5;
-
+	int tax =10;
 	public static void main(String[] args) {
 		ObjectCreation ref = new ObjectCreation();
 		System.out.println(ref.price);
